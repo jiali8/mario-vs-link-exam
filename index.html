@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mario VS Link</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <!-- Title -->
+        <h1>Structured Programming 1</h1>
+        <h3>Module Exam</h3>
+        <hr>
+
+        <!-- Mario vs Link Style Section -->
+        <h3>Meet the Heroes</h3>
+        <p><button id="marioButton">Mario</button>or<button id= "linkButton">Link</button></p>
+        <center><img id="main-img" src="images/mario-vs-link.jpg"></center>
+
+        <ul>
+            <li>Hero of: <span id="first-bullet">-----</span></li>
+            <li>Love interest: <span id="second-bullet">-----</span></li>
+            <li>Nemesis: <span id="third-bullet">-----</span></li>
+            <li> <a id="link" href="https://mario.fandom.com/wiki/MarioWiki" target= _blank> Click here for more info about the game characters!</a></li>
+        </ul>
+        
+        <hr>
+
+        <!-- Mario vs Link Variables Section -->
+        <!-- Attack and Defense Calculators -->
+        <h3>Calculating the Hero Attack Values</h3>
+        <center>
+            <table>
+                    <tr>
+                        <td>Mario's Strength: <input type="number" id="mario-strength-input"></td>
+                        <td>Link's Strength: <input type="number" id="link-strength-input"></td>
+                    </tr>
+                    <tr>
+                        <td>Mario's Defense: <input type="number" id="mario-defense-input"></td>
+                        <td>Link's Defense: <input type="number" id="link-defense-input"></td>
+                    </tr>
+                    <tr>
+                        <td>Mario's Attack Value: <span id="mResults">------</span></td>
+                        <td>Link's Attack Value: <span id="lResults">------</span></td>
+                    </tr>
+                </table>
+        </center>
+        <p><button id= "calc-attack-btn" class="btn">Calculate Attack</button></p>
+        <hr>
+
+        <!-- The Battle -->
+        <h3>The Battle Royale</h3>
+        <p>Set the scene and choose the following...</p>
+        <ul>
+            <li>Something a plumber uses: <input id="madlib-q1" type="text"> </li>
+            <li>A knight's go-to item: <input id="madlib-q2" type="text"></li>
+            <li>An exclamation: <input id="madlib-q3" type="text"></li>
+        </ul>
+        <p><button id="start-battle" class="btn">Start the Battle</button></p>
+        <p id="display-message">-------------</p>
+        
+        <script src="main.js"> </script>
+
+    </body>
+</html>
